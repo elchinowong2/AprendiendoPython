@@ -1,6 +1,9 @@
-def hola(nombre):
+def hola(nombre, apellido):
     print("hola mundo")
-    print(f"ultimo fight {nombre}")
+    print(f"ultimo fight {nombre} {apellido} ")
 
 
-hola("hola")
+hola("hola", "Wong")
+
+
+hola(apellido="Wong", nombre="Orlando")
