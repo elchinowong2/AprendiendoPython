@@ -1,6 +1,6 @@
-def hola():
+def hola(nombre):
     print("hola mundo")
-    print("ultimo fight")
+    print(f"ultimo fight {nombre}")
 
 
-hola()
+hola("hola")
